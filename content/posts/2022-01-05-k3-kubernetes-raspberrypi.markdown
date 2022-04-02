@@ -1,13 +1,12 @@
 ---
 layout: single
 title:  "K3 for Running Kubernetes on Raspberry pi"
-date:   2020-01-05 20:20:32 -0500
+date:   2022-01-05 20:20:32 -0500
 categories:
   - dev-ops
 tags:
   - raspberrypi
   - kubernetes
-  - k3
 ---
 
 [Rachers K3 Github Repository](https://github.com/rancher/k3s#k3s---5-less-than-k8s) describes K3 as a *Lightweight Kubernetes. Easy to install, half the memory, all in a binary less than 40mb.* These characteristics make K3 ideal for in use in ARM deployments like Raspberry Pi. I've been using K3 at home for several weeks now and have found it to be a suitable replacement for a full Kubernetes deployment.

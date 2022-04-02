@@ -1,7 +1,7 @@
 ---
 layout: single
 title:  "Adding DNS entries to Pihole"
-date:   2020-01-04 20:33:22 -0500
+date:   2022-01-04 20:33:22 -0500
 categories:
   - dev-ops
 tags:

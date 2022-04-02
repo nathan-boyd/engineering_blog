@@ -5,14 +5,13 @@ date:   2020-01-09 07:28:00 -0500
 categories:
   - dev
 tags:
-  - Go
-  - Golang
-  - Idioms
+  - golang
+  - idioms
 ---
 
 A programming idiom is the usual way to code a task in a specific language. Although Golang does not have built in support for enumerations there is an idomatic way to emulate the feature. The idiomatic way to have enumerations in Go is to use a combination of the [Iota](https://github.com/golang/go/wiki/Iota) and Integer types.
 
-{% highlight go %}
+``` go
 
 type TaxonomicRank int
 
@@ -48,7 +47,7 @@ var toEnum = map[string]TaxonomicRank{
 }
 
 
-{% endhighlight %}
+```
 
 For extra credit, as they say, we can add support for serialization support for our enum with the following
 
@@ -75,4 +74,4 @@ func (m *TaxonomicRank) UnmarshalJSON(b []byte) error {
 	return nil
 }
 
-{% endhighlight %}
+```
