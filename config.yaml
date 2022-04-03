@@ -12,20 +12,18 @@ buildFuture: false
 buildExpired: false
 enableEmoji: true
 enableGitInfo: true
-pygmentsUseClasses: true
-googleAnalytics: UA-90040103-1
 keywords: [Tech, Software, Engineering, Blog]
+pygmentsCodefences: true
+pygmentsCodefencesGuessSyntax: true
+pygmentsStyle: "monokai"
 minify:
     disableXML: true
     minifyOutput: true
 menu:
     main:
-        - name: Archive
-          url: archives
+        - name: Posts
+          url: posts
           weight: 5
-        - name: Search
-          url: search/
-          weight: 10
         - name: Tags
           url: tags/
           weight: 10
@@ -33,9 +31,7 @@ menu:
           url: categories/
           weight: 10
 params:
-    env: production # to enable google analytics, opengraph, twitter-cards and schema.
-    description: "Theme PaperMod - https://github.com/adityatelange/hugo-PaperMod"
-    author: Nathan Boyd
+    env: production
     defaultTheme: auto
     ShowShareButtons: true
     ShowReadingTime: true
@@ -66,12 +62,12 @@ params:
         URL: "https://github.com/nathan-boyd/engineering_blog/tree/main/content/"
         Text: "Suggest Changes" # edit text
         appendFilePath: true # to append file path to Edit link
-assets:
-    favicon: img/favicon.png
-    favicon16x16: img/favicon-16x16.png
-    favicon32x32: img/favicon-32x32.png
-    apple_touch_icon: img/apple-touch-icon.png
-    safari_pinned_tab: img/favicon.ico
+    assets:
+        favicon: img/favicon.png
+        favicon16x16: img/favicon-16x16.png
+        favicon32x32: img/favicon-32x32.png
+        apple_touch_icon: img/apple-touch-icon.png
+        safari_pinned_tab: img/favicon.ico
 taxonomies:
     category: categories
     tag: tags
