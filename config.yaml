@@ -31,8 +31,12 @@ menu:
         - name: Categories
           url: categories/
           weight: 10
+        - name: Archive
+          url: archives/
+          weight: 5
 params:
     env: production
+    ShowToc: true
     defaultTheme: auto
     ShowShareButtons: true
     ShowReadingTime: true
@@ -40,15 +44,13 @@ params:
     ShowPostNavLinks: true
     ShowBreadCrumbs: true
     ShowCodeCopyButtons: true
-    ShowToc: true
+    ShowToc: false
     comments: false
     images: ["papermod-cover.png"]
     homeInfoParams:
         Title: "hi there \U0001F44B"
         Content: Welcome to Nathan's Engineering and Tech Blog
     socialIcons:
-        - name: RsS
-          url: "index.xml"
         - name: "kofi"
           url: "https://ko-fi.com/nathanboyd"
         - name: twitter
@@ -57,6 +59,8 @@ params:
           url: "https://stackoverflow.com/users/551922/nathan-boyd/"
         - name: github
           url: "https://github.com/nathan-boyd/"
+        - name: RsS
+          url: "index.xml"
         - name: linkedin
           url: "https://www.linkedin.com/in/boydnathan/"
     editPost:

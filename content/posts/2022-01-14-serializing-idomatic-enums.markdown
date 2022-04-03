@@ -51,7 +51,7 @@ var toEnum = map[string]TaxonomicRank{
 
 For extra credit, as they say, we can add support for serialization support for our enum with the following
 
-{% highlight go %}
+``` go
 
 // MarshalJSON marshals the enum as a quoted string
 func (m TaxonomicRank) MarshalJSON() ([]byte, error) {

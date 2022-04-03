@@ -11,7 +11,7 @@ tags:
 
 Adding static DNS entries to Pihole can be accomplished by adding entries to the Pihole server's hosts file `/etc/hosts`. For example:
 
-``` highlight shell
+``` shell
     192.168.1.100    pihole.yourdomain
     192.168.1.100    blog.yourdomain
     192.168.1.101    foo.yourdomain

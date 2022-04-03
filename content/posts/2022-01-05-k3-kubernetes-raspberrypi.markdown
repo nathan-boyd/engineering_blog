@@ -29,6 +29,6 @@ In my experience installation can be performed with simple scripting and takes a
 
 Once you've installed the controller the cluster's Kubeconfig may be obtained form the `/etc/rancher/k3s/k3s.yaml` file
 
-```shell
+``` shell
   export KUBECONFIG=/etc/rancher/k3s/k3s.yaml && kubectl get nodes
 ```

@@ -30,7 +30,7 @@ If we treat the map as an undirected graph then we can walk the associated tree 
 
 Walk the map, if a node's value is '1' then we initiate a depth first traversal. During this traversal every visited land node's value is set to '#' to mark it as visited. If we count the number of times we trigger a traversal, we have our count of islands.
 
-```python3
+``` python
 import pytest
 
 

@@ -11,7 +11,7 @@ There are existing docs about [Hugo Syntax Highliting](https://gohugo.io/content
 
 Changes to `config.yaml`
 
-```yaml
+``` yaml
 pygmentsCodefences: true
 pygmentsCodefencesGuessSyntax: true
 pygmentsStyle: "monokai"
@@ -19,12 +19,12 @@ pygmentsStyle: "monokai"
 
 Create a directory for the code highlighting css
 
-```shell
+``` shell
 mkdir static/css
 ```
 
 Generate the syntax highlighting style sheet.
 
-```shell
+``` shell
 hugo gen chromastyles --style=monokai > static/css/syntax.css
 ```
