@@ -43,7 +43,6 @@ menu:
           url: search/
           weight: 5
 params:
-params:
     env: production
     ShowToc: true
     defaultTheme: auto
@@ -58,7 +57,7 @@ params:
     images: ["papermod-cover.png"]
     homeInfoParams:
         Title: "hi there \U0001F44B"
-        Content: Welcome to Nathan's Engineering and Tech Blog
+        Content: Well this is interesting, you've found my software and tech blog! Welcome and feel free to reach out to me on one of the socials below.
     socialIcons:
         - name: "kofi"
           url: "https://ko-fi.com/nathanboyd"
@@ -68,7 +67,7 @@ params:
           url: "https://stackoverflow.com/users/551922/nathan-boyd/"
         - name: github
           url: "https://github.com/nathan-boyd/"
-        - name: RsS
+        - name: rss
           url: "index.xml"
         - name: linkedin
           url: "https://www.linkedin.com/in/boydnathan/"
