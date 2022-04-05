@@ -6,7 +6,7 @@ categories:
 weight: 2
 ---
 
-Big O notation is a way to talk about the time complexity or resource utilization of an algorithm. It's commonly used to describe the worst, best, and average cases and compare one algorithm against others. Algorithms with lower complexity are more desirable than ones with high complexity.
+Big O notation is a way to talk about the time or resource complexity of an algorithm. It's commonly used to describe worst, best, and average cases while comparing one algorithm to others. Since algorithms with less complexity finish faster that those with high complexity they are more desirable.
 
 The expression O(x) pronounced "big-O of x" is used to symbolically express the asymptotic behavior of a given function. Specifically when n is an integer that tends to infinity and x is a continuous variable tending to some limit.
 
@@ -39,13 +39,13 @@ The Algorithm Time Complexity graph below compares several complexity classes ov
 
 ### O(1) - Constant
 
-O(1) is constant complexity, meaning that the operation is independent of the number of inputs. Array access operations like the following code snippet are good examples of constant-time operations. The complexity of looking up the value at an index in an array of 10 or 1000 are equivalent.
+O(1) is constant complexity, meaning that the operation is independent of the number of inputs. Operations with constant complexity include
 
 - array access
 - array push
 - array pop
 
-Functions that perform primitive operations like multiplication, addition, etc... have constant complexity.
+Functions that perform primitive operations like multiplication, addition, or subtraction also have constant complexity. Below is an example of such a constant function
 
 ```
 def isEvenOrOdd(n):
@@ -94,11 +94,11 @@ def twoSum(self, nums: List[int], target: int) -> List[int]:
 
 ### O(n log n) - Log Linear
 
-The best way to understand log-linear complexity is to think of it as linear complexity multiplied by logarithmic. Most of the common sorting algorithims have log-linear complexity.
+The best way to understand log-linear complexity is to think of it as linear complexity multiplied by logarithmic. Most of the common sorting algorithms have log-linear complexity.
 
-- Merge Sort
-- Heap Sort
-- Quick Sort
+- merge sort
+- heapj sort
+- quick sort
 
 Here we have a quick sort implementation that iterates over all values of the array of n length and the values are continually halved.
 
@@ -134,11 +134,11 @@ def quick_sort(arr):
 
 O(n<sup>2</sup>) is also known at quadratic complexity. This is because performance is proportional to the squared size of the input data. Another way of thinking about it is that it's linear squared, hence quadratic. This level of complexity often occurs when the data is iterated over in nested loops. There are also several sorting algorithms that have quadratic complexity.
 
-- Bubble Sort
-- Insertion Sort
-- Selection Sort
+- bubble sort
+- insertion sort
+- selection sort
 
-A naive solution to the classic Two Sum coding challenge illustrates quadratic complexity. For each element, we try to find its complement by looping through the rest of the array which takes O(n)O(n) time.
+A naive solution to the classic Two Sum coding challenge illustrates quadratic complexity. For each element, we try to find its complement by iteratinv through the rest of the array which takes O(n)O(n) time.
 
 ``` python
 def bubblesort(nums):
@@ -150,13 +150,13 @@ def bubblesort(nums):
 
 ### O(2<sup>n</sup>) Doubling - Fibonacci
 
-O(2n) represents a function whose performance doubles for every element in the input. This example is the recursive calculation of Fibonacci numbers. The function falls under O(2n) as the function recursively calls itself twice for each input number until the number is less than or equal to one.
+O(2n) represents a function whose performance doubles for every element in the input. Our example is a function which recursive  generates the numbers in the Fibonacci sequence. The function recursively calls itself twice for each input number until the number is less than or equal to one.
 
 ``` python
-def fib(N) -> int:
-    if N <= 1:
-        return N
-    return self.fib(N - 1) + self.fib(N - 2)
+def fib(target) -> int:
+    if target <= 1:
+        return target
+    return fib(target - 1) + fib(target - 2)
 ```
 
 ### O(n!) - Factorial
