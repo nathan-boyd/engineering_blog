@@ -6,6 +6,7 @@ categories:
   - challenges
 tags:
   - python
+  - interviewing
 ---
 
 A 2D binary grid represents a land map. The map consists of '1's and '0's where the 1's are land and the 0's are water. Given this map, count the number of islands
