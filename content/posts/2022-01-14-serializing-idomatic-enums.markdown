@@ -7,6 +7,7 @@ categories:
 tags:
   - golang
   - idioms
+weight: 5
 ---
 
 A programming idiom is the usual way to code a task in a specific language. Although Golang does not have built in support for enumerations there is an idomatic way to emulate the feature. The idiomatic way to have enumerations in Go is to use a combination of the [Iota](https://github.com/golang/go/wiki/Iota) and Integer types.
