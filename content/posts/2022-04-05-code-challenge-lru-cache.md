@@ -9,8 +9,6 @@ tags:
   - interviewing
 ---
 
-## The challenge
-
 Implement an LRUCache class.
 
 
@@ -42,7 +40,7 @@ lRUCache.get(3);    // return 3
 lRUCache.get(4);    // return 4
 ```
 
-## The Solution
+## Intuition
 
 This question requires prior knowledge or a sympathetic interviewer. You need to understand that an LRU cache is a replacement algorithm that removes the least recently used value to make room for new value.
 
