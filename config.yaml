@@ -2,7 +2,7 @@ baseURL: "https://blog.engineernathan.org/"
 title: "Nathan's Engineering Blog"
 description: "Nathan's tech and engineering blog"
 author: "Nathan Boyd"
-paginate: 5
+paginate: 50
 theme: PaperMod
 languageCode:  "en-us"
 enableInlineShortcodes: true

@@ -61,7 +61,7 @@ When working with running sums like above we're recalculating a lot of values ov
 
 We can use use a hash map to store the previous sums / prefixsums. For this, we can store the occurrence of prefixSum % k at every iteration. If we have already seen this (prefixSum%k), we will add the number of occurrences of this to the answer.
 
-```
+``` python
 import pytest
 from typing import List
 

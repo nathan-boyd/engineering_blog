@@ -1,7 +1,6 @@
 ---
 title: "Knight Dialer"
 date: 2022-04-05T18:47:36-04:00
-draft: true
 categories:
   - dev
   - challenges
@@ -48,7 +47,7 @@ There is an excellent [blog post](https://medium.com/hackernoon/google-interview
 
 We need to be able to derive our legal moves from any given location on the key pad, a map would be appropriate
 
-```
+``` python
 neighbors_map = {
     0: (4, 6),
     1: (6, 8),
