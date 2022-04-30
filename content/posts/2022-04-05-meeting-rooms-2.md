@@ -3,7 +3,6 @@ title: "Meeting Rooms 2"
 date: 2022-04-05T18:14:19-04:00
 categories:
   - dev
-  - challenges
 tags:
   - python
   - interviewing

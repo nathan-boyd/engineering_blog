@@ -1,7 +1,7 @@
 ---
 layout: single
 title: "Idiomatic Enums in Go"
-date: 2020-01-09 07:28:00 -0500
+date: 2021-06-19 07:28:00 -0500
 categories:
   - dev
 tags:

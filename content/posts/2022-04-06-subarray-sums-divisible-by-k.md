@@ -3,7 +3,6 @@ title: "Subarray Sums Divisible by K"
 date: 2022-04-06T20:12:06-04:00
 categories:
   - dev
-  - challenges
 tags:
   - python
   - interviewing
@@ -59,7 +58,7 @@ class TestClass:
 
 When working with running sums like above we're recalculating a lot of values over and over again.
 
-We can use use a hash map to store the previous sums / prefixsums. For this, we can store the occurrence of prefixSum % k at every iteration. If we have already seen this (prefixSum%k), we will add the number of occurrences of this to the answer.
+We can use use a hash map to store the previous sums / prefixsums. For this, we can store the occurrence of prefixSum % k at every iteration. If we have already seen this ( prefixSum %k ), we will add the number of occurrences of this to the answer.
 
 ``` python
 import pytest

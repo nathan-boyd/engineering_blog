@@ -3,7 +3,6 @@ title: "Design a Deck of Cards"
 date: 2022-04-07T08:42:52-04:00
 categories:
   - dev
-  - challenges
 tags:
   - python
   - interviewing

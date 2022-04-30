@@ -3,7 +3,6 @@ title: "Find Median From Data Stream"
 date: 2022-04-06T21:20:54-04:00
 categories:
   - dev
-  - challenges
 tags:
   - python
   - interviewing

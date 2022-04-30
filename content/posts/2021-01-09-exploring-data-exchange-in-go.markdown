@@ -1,7 +1,6 @@
 ---
-layout: single
-title:  "Exploring Data Exchange in Go"
-date:   2022-01-09 07:28:00 -0500
+title: "Exploring Data Exchange in Go"
+date: 2021-01-09 07:28:00 -0500
 categories:
   - dev
 tags:

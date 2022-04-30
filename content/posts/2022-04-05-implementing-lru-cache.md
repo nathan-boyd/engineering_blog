@@ -3,7 +3,6 @@ title: "Implementing a LRU Cache"
 date: 2022-04-05T06:39:18-04:00
 categories:
   - dev
-  - challenges
 tags:
   - python
   - interviewing

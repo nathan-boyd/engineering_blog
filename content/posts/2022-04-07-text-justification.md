@@ -3,7 +3,6 @@ title: "Text Justification"
 date: 2022-04-07T07:32:59-04:00
 categories:
   - dev
-  - challenges
 tags:
   - python
   - interviewing
@@ -79,10 +78,6 @@ def fullJustify(words, maxWidth):
     for w in words:
         if num_of_letters + len(w) + len(current) > maxWidth:
             for i in range(maxWidth - num_of_letters):
-                # once we determine that there are only k words that can fit on a given line,
-                # you know what the total length of those words is num_of_letters.
-                # Then the rest are spaces, and there are (maxWidth - num_of_letters) of spaces.
-                # The "or 1" part is for dealing with the edge case len(cur) == 1.
                 current[i % (len(current) - 1 or 1)] += ' '
             result.append(''.join(current))
             current, num_of_letters = [], 0

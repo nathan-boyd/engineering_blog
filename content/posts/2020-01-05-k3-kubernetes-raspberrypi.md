@@ -1,7 +1,6 @@
 ---
-layout: single
-title:  "K3 for Running Kubernetes on Raspberry pi"
-date:   2022-01-05 20:20:32 -0500
+title: "K3 for Running Kubernetes on Raspberry pi"
+date: 2020-01-05 20:20:32 -0500
 categories:
   - dev-ops
 tags:
