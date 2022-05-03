@@ -33,7 +33,7 @@ The table below contains a number of common Big O complexity limits. It illustra
 
 The Algorithm Time Complexity graph below compares several complexity classes over time. A logarithmic scale has been utilized to allow all of the classes to appear in a single image.
 
-![Alg Time Complexity](/img/big-o/Algorithm-Time-Complexity.png)
+![Alg Time Complexity](/img/posts/big-o/Algorithm-Time-Complexity.png)
 
 ## Examples of Big O Complexity
 
