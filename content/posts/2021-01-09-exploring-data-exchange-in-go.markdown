@@ -5,7 +5,6 @@ categories:
   - dev
 tags:
   - golang
-weight: 1
 ---
 
 A common task for a software engineer is to transform data from one format into another that is suitable for their needs. Some data formats are good for storage, others are easy to edit, and some are ideally suited for transport. Transforming data from a source format and into a target format is known as Data Exchange.

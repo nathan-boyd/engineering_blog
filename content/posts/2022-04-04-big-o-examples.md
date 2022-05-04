@@ -3,7 +3,6 @@ title: "Big O with Examples"
 date: 2022-04-04T08:33:50-04:00
 categories:
   - theory
-weight: 2
 ---
 
 Big O notation is a way to talk about the time or resource complexity of an algorithm. It's commonly used to describe worst, best, and average cases while comparing one algorithm to others. Since algorithms with less complexity finish faster that those with high complexity they are more desirable.
