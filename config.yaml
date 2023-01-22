@@ -16,7 +16,7 @@ keywords: [Tech, Software, Engineering, Blog]
 pygmentsCodefences: true
 pygmentsCodefencesGuessSyntax: true
 pygmentsStyle: "monokai"
-googleAnalytics: G-FFN3MQXMGK
+googleAnalytics: UA-90040103-1
 outputs:
     home:
         - HTML
