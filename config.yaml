@@ -43,6 +43,19 @@ menu:
           url: search/
           weight: 5
 params:
+    profileMode:
+      enabled: true
+      title: "Exploring concepts and implementaions"
+      subtitle: "A craftsman's approach to software engineering"
+      imageUrl: "/img/profile/AvatarMaker.png"
+      imageTitle: "Profile Pic Alt Text"
+      imageWidth: 240 # custom size
+      imageHeight: 240 # custom size
+      buttons:
+        - name: Posts
+          url: "/posts"
+        - name: Github
+          url: "https://github.com/nathan-boyd/"
     env: production
     ShowToc: true
     defaultTheme: auto
@@ -76,11 +89,11 @@ params:
         Text: "Suggest Changes" # edit text
         appendFilePath: true # to append file path to Edit link
     assets:
-        favicon: img/favicon.png
-        favicon16x16: img/favicon-16x16.png
-        favicon32x32: img/favicon-32x32.png
-        apple_touch_icon: img/apple-touch-icon.png
-        safari_pinned_tab: img/favicon.ico
+        favicon: img/favicon/favicon.png
+        favicon16x16: img/favicon/favicon-16x16.png
+        favicon32x32: img/favicon/favicon-32x32.png
+        apple_touch_icon: img/favicon/apple-touch-icon.png
+        safari_pinned_tab: img/favicon/favicon.ico
 taxonomies:
     category: categories
     tag: tags
