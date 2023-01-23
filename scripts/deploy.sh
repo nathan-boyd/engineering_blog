@@ -2,8 +2,10 @@
 
 set -e
 
+source $HOME/.zshfn/logInfo
+
 logInfo "hugo version"
-hugo --version
+hugo version
 
 logInfo "building"
 hugo
