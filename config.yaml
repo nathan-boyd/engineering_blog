@@ -16,46 +16,46 @@ keywords: [Tech, Software, Engineering, Blog]
 pygmentsCodefences: true
 pygmentsCodefencesGuessSyntax: true
 pygmentsStyle: "monokai"
-googleAnalytics: G-J5HMDX8CT9
+googleAnalytics: "G-J5HMDX8CT9"
 outputs:
-    home:
-        - HTML
-        - RSS
-        - JSON # is necessary
+  home:
+    - HTML
+    - RSS
+    - JSON # is necessary
 minify:
-    disableXML: true
-    minifyOutput: true
+  disableXML: true
+  minifyOutput: true
 menu:
-    main:
-        - name: Posts
-          url: posts
-          weight: 5
-        - name: Tags
-          url: tags/
-          weight: 10
-        - name: Categories
-          url: categories/
-          weight: 10
-        - name: Archive
-          url: archives/
-          weight: 5
-        - name: Search
-          url: search/
-          weight: 5
+  main:
+    - name: Posts
+      url: posts
+      weight: 5
+    - name: Tags
+      url: tags/
+      weight: 10
+    - name: Categories
+      url: categories/
+      weight: 10
+    - name: Archive
+      url: archives/
+      weight: 5
+    - name: Search
+      url: search/
+      weight: 5
 params:
-    profileMode:
-      enabled: true
-      title: "Exploring concepts and implementaions"
-      subtitle: "A craftsman's approach to software engineering"
-      imageUrl: "/img/profile/AvatarMaker.png"
-      imageTitle: "Profile Pic Alt Text"
-      imageWidth: 240 # custom size
-      imageHeight: 240 # custom size
-      buttons:
-        - name: Posts
-          url: "/posts"
-        - name: Github
-          url: "https://github.com/nathan-boyd/"
+  profileMode:
+    enabled: true
+    title: "Exploring concepts and implementaions"
+    subtitle: "A craftsman's approach to software engineering"
+    imageUrl: "/img/profile/AvatarMaker.png"
+    imageTitle: "Profile Pic Alt Text"
+    imageWidth: 240 # custom size
+    imageHeight: 240 # custom size
+    buttons:
+      - name: Posts
+        url: "/posts"
+      - name: Github
+        url: "https://github.com/nathan-boyd/"
     env: production
     ShowToc: true
     defaultTheme: auto
@@ -65,63 +65,62 @@ params:
     ShowPostNavLinks: true
     ShowBreadCrumbs: true
     ShowCodeCopyButtons: true
-    ShowToc: false
     comments: false
     images: ["papermod-cover.png"]
     homeInfoParams:
-        Title: "hi there \U0001F44B"
-        Content: Well this is interesting, you've found my software and tech blog! Welcome and feel free to reach out to me on one of the socials below.
+      Title: "hi there \U0001F44B"
+      Content: Well this is interesting, you've found my software and tech blog! Welcome and feel free to reach out to me on one of the socials below.
     socialIcons:
-        - name: "kofi"
-          url: "https://ko-fi.com/nathanboyd"
-        - name: twitter
-          url: "https://twitter.com/nathanboyd/"
-        - name: stackoverflow
-          url: "https://stackoverflow.com/users/551922/nathan-boyd/"
-        - name: github
-          url: "https://github.com/nathan-boyd/"
-        - name: rss
-          url: "index.xml"
-        - name: linkedin
-          url: "https://www.linkedin.com/in/boydnathan/"
+      - name: "kofi"
+        url: "https://ko-fi.com/nathanboyd"
+      - name: twitter
+        url: "https://twitter.com/nathanboyd/"
+      - name: stackoverflow
+        url: "https://stackoverflow.com/users/551922/nathan-boyd/"
+      - name: github
+        url: "https://github.com/nathan-boyd/"
+      - name: rss
+        url: "index.xml"
+      - name: linkedin
+        url: "https://www.linkedin.com/in/boydnathan/"
     editPost:
-        URL: "https://github.com/nathan-boyd/engineering_blog/tree/main/content/"
-        Text: "Suggest Changes" # edit text
-        appendFilePath: true # to append file path to Edit link
+      URL: "https://github.com/nathan-boyd/engineering_blog/tree/main/content/"
+      Text: "Suggest Changes" # edit text
+      appendFilePath: true # to append file path to Edit link
     assets:
-        favicon: img/favicon/favicon.png
-        favicon16x16: img/favicon/favicon-16x16.png
-        favicon32x32: img/favicon/favicon-32x32.png
-        apple_touch_icon: img/favicon/apple-touch-icon.png
-        safari_pinned_tab: img/favicon/favicon.ico
+      favicon: img/favicon/favicon.png
+      favicon16x16: img/favicon/favicon-16x16.png
+      favicon32x32: img/favicon/favicon-32x32.png
+      apple_touch_icon: img/favicon/apple-touch-icon.png
+      safari_pinned_tab: img/favicon/favicon.ico
 taxonomies:
-    category: categories
-    tag: tags
-    series: series
+  category: categories
+  tag: tags
+  series: series
 markup:
-    goldmark:
-        renderer:
-            unsafe: true
+  goldmark:
+    renderer:
+      unsafe: true
 privacy:
-    vimeo:
-        disabled: false
-        simple: true
+  vimeo:
+    disabled: false
+    simple: true
     twitter:
-        disabled: false
-        enableDNT: true
-        simple: true
+      disabled: false
+      enableDNT: true
+      simple: true
     instagram:
-        disabled: false
-        simple: true
+      disabled: false
+      simple: true
     youtube:
-        disabled: false
-        privacyEnhanced: true
+      disabled: false
+      privacyEnhanced: true
 services:
-    instagram:
-        disableInlineCSS: true
+  instagram:
+    disableInlineCSS: true
     twitter:
-        disableInlineCSS: true
+      disableInlineCSS: true
 deployment:
-    targets:
-        name: "s3"
-        URL: "s3://blog.engineernathan.org?region=us-east-1"
+  targets:
+    name: "s3"
+    URL: "s3://blog.engineernathan.org?region=us-east-1"
